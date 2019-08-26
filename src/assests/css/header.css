@@ -1,0 +1,66 @@
+.super-container
+{
+	width: 100%;
+	overflow: hidden;
+}
+.brand-logo {
+	width: 2.5rem;
+	height: 2.5rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+.brand {
+	letter-spacing: 0.5rem;
+	font-weight: bolder;
+}
+.footer-content
+{
+	padding-top: 50px;
+	text-align: center;
+	padding-bottom: 17px;
+}
+.footer-logo a
+{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	color: #FFFFFF;
+	letter-spacing: 0.075em;
+	text-transform: uppercase;
+	line-height: 0.75;
+	padding-left: 1.5rem;
+}
+.footer-social
+{
+	margin-top: 34px;
+}
+.footer-social ul li
+{
+	display: inline-block;
+}
+.footer-social ul li
+{
+	margin-right: 21px;
+}
+.footer-social ul li i
+{
+	color: #8f8f8f;
+}
+.footer-social-facebook:hover i
+{
+	color: #3b5999;
+}
+.footer-social-twitter:hover i
+{
+	color: #55acee;
+}
+.footer-social-youtube:hover i
+{
+	color: #c4302b;
+}
+.text-error {
+	padding: 0.5rem;
+	color: #cc0033;
+	font-size: 14px;
+	line-height: 15px;
+}

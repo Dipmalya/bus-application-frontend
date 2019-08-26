@@ -1,0 +1,31 @@
+{
+    "Login": {
+        "title": "Let us know who you are..",
+        "className": "offset-lg-4 -col-lg-9 col-md-8 col-sm-8",
+        "inputs": [
+            {
+                "type": "email",
+                "placeholder": "name@domain.com",
+                "className": "form-control",
+                "id": "login-email",
+                "label": "Email",
+                "errorText": "Please provide your email id"
+            },
+            {
+                "type": "password",
+                "className": "form-control",
+                "id": "login-password",
+                "label": "Password",
+                "errorText": "Please provide your password"
+            }
+        ],
+        "buttons": [
+            {
+                "type": "button",
+                "className": "btn btn-primary",
+                "id": "login-button",
+                "value": "Login"
+            }
+        ]
+    }
+}

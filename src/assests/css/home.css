@@ -1,0 +1,138 @@
+.home
+{
+	width: 100%;
+	height: 88vh;
+}
+.home-slider-container
+{
+	width: 100%;
+	height: auto;
+}
+.home-slider-background
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+.home-slider-content-container
+{
+	position: absolute;
+	top: 45%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	left: 0;
+	width: 100%;
+}
+.home-slider-content
+{
+	max-width: 460px;
+}
+.home-slider-item-category
+{
+	width: 83px;
+	height: 28px;
+	background: #899091;
+	border-radius: 14px;
+	text-align: center;
+}
+.home-slider-item-category a
+{
+	display: block;
+	line-height: 28px;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 12px;
+	color: rgba(255,255,255,1);
+	text-transform: uppercase;
+}
+.home-slider-item-category:hover
+{
+	background: #FFFFFF;
+}
+.home-slider-item-category:hover a
+{
+	color: rgba(0,0,0,0.8);
+}
+.home-slider-item-title
+{
+	margin-top: 19px;
+}
+.home-slider-item-title a
+{
+	font-family: 'Work Sans', sans-serif;
+	font-size: 36px;
+	font-weight: 600;
+	color: #FFFFFF;
+	line-height: 1.27;
+}
+.home-slider-item-link
+{
+	margin-top: 21px;
+}
+.home-slider-item-link a
+{
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 14px;
+	color: rgba(255,255,255,0.5);
+	font-weight: 500;
+}
+.home-slider-item-link a:hover
+{
+	color: rgba(255,255,255,1);
+}
+.home-slider-item-link a svg
+{
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 16px;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.home-slider-item-link a svg polygon
+{
+	fill: rgba(255,255,255,0.5);
+}
+.home-slider-item-link a:hover svg polygon
+{
+	fill: rgba(255,255,255,1);
+}
+.similar-posts-container
+{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+.similar-post
+{
+	width: 100%;
+	height: 70px;
+	background: #dedede;
+	border-radius: 6px;
+	padding-left: 26px;
+	padding-right: 26px;
+	margin-bottom: 30px;
+}
+.similar-post:hover
+{
+	background: #FFFFFF;
+}
+.page-content
+{
+	background: #f7f7f7;
+}
+.blog-section
+{
+	margin-top: 80px;
+	padding-bottom: 5rem;
+}
